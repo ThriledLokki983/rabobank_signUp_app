@@ -27,10 +27,15 @@ export const Container = styled.div`
 	max-width: 75rem;
 	width: 70rem;
 	background-color: #fff;
-	// background-color: #ff4800;
 	box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
 	padding: 5rem 7rem;
 	border-radius: 5px;
+
+	@media (max-width: 425px) {
+		width: 100%;
+		padding: 1rem;
+		border-radius: 0;
+	}
 `;
 
 export const SpanStyle1 = styled.span`
@@ -73,6 +78,11 @@ export const MainForm = styled.form`
 	box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
 	padding: 5rem 7rem;
 	border-radius: 5px;
+
+	@media (max-width: 425px) {
+		width: 100%;
+		padding: 1rem;
+	}
 `;
 
 export const FormGroup = styled.div`
