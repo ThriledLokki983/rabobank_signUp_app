@@ -44,6 +44,8 @@ function SignUp({ onSignUp, onButtonClick }) {
 			setError(true);
 			setErrMessage("Password Incorrect: Please check and try again!");
 		}
+
+		event.target.reset();
 	};
 
 	return (
