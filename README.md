@@ -15,3 +15,4 @@
         1. POST form data to [API](https://demo-api.now.sh/users)
         2. Wait 4 seconds
         3. GET from [API](https://demo-api.now.sh/users)
+            - I do fetch the data but as to what to do with the data I do not know because it was not specified and I do not want to do anything that is not specifically asked.
